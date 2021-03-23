@@ -1,0 +1,1 @@
+[{{shop_name}}] POS_ORDER {{ name }}{% if customer.name %} placed by {{ customer.name }}{% endif %}{% if has_high_risks? %} (Risk of fraud){% endif %}
